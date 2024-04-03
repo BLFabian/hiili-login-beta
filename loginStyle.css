@@ -257,3 +257,11 @@ input:focus::placeholder {
   margin-right: 20px;
   color: var(--main-color);
 }
+
+#emailBox input:-webkit-autofill {
+  background-color: transparent !important;
+}
+
+#passwordBox input:-webkit-autofill {
+  background-color: transparent !important;
+}
