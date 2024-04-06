@@ -258,10 +258,9 @@ input:focus::placeholder {
   color: var(--main-color);
 }
 
-#emailBox input:-webkit-autofill {
-  background-color: transparent !important;
-}
-
-#passwordBox input:-webkit-autofill {
-  background-color: transparent !important;
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+input:-webkit-autofill:active {
+  -webkit-background-clip: text;
 }
